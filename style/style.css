@@ -1,0 +1,144 @@
+
+nav {
+background: #000;
+
+}
+
+.category {
+display: flex;
+justify-content: space-between;
+padding: 10px 0;
+
+}
+.category .category_link {
+font-weight: 300;
+font-size: 15px;
+color: white;
+text-decoration: none;
+
+}
+
+
+.logo {
+
+}
+
+.logo .logo_header {
+font-weight: 700;
+font-size: 22px;
+}
+
+.logo .logo_subheader {
+font-weight: 400;
+font-size: 14px;
+
+}
+
+.phone {
+
+
+}
+
+.phone_descr {
+font-weight: 300;
+font-size: 14px;
+}
+
+.phone_call {
+font-weight: 500;
+font-size: 22px;
+}
+
+.order {
+display: flex;
+align-items: center;
+}
+
+.order_btn {
+background: black;
+border-radius: 7px;
+height: 46px;
+width: 172px;
+color: white;
+
+text-transform: uppercase;
+font-weight: 400;
+font-size: 16px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+cursor: pointer;
+box-shadow: inset 0px -4px 0px rgb(0,0,0,0.1);
+transition: 1s;
+}
+
+.order_btn:hover {
+    box-shadow: 0 0 10px grey;
+    transform: translateY(10px);
+    border: 7px white solid;
+    border-radius: 10px;
+    color: black;
+    background: white;
+}
+
+.promo {
+	padding: 200px 0px;
+}
+
+
+.promo_work {
+}
+
+
+
+.promo_work_descr {
+font-weight: 500;
+font-size: 40px;
+line-height: 46px;
+
+
+
+}
+.promo_work_btn {
+background: black;
+border-radius: 7px;
+height: 63px;
+width: 259px;
+color: white;
+margin-top: 30px;
+
+text-transform: uppercase;
+font-weight: 500;
+font-size: 18px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+box-shadow: inset 0px -4px 0px rgb(0,0,0,0.1);
+transition: 1s;
+}
+
+.promo_work_btn:hover {
+    box-shadow: 0 0 5px rgb(0,0,0,0.6) ;
+    border: 7px white solid;
+    border-radius: 10px;
+    color: black;
+    background: white;
+    }
+
+.promo_pay{
+
+}
+.promo_pay_descr{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+}
+.promo_pay_price{
+    font-weight: 600;
+    font-size: 87px;
+    margin-top: 30px;
+}
